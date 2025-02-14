@@ -13,20 +13,20 @@ def populate():
     # through each data structure, and add the data to our models.
 
     python_pages = [
-        {'title': 'Official Python Tutorial', 'url':'http://docs.python.org/3/tutorial/'},
-        {'title':'How to Think like a Computer Scientist', 'url':'http://www.greenteapress.com/thinkpython/'},
-        {'title':'Learn Python in 10 Minutes', 'url':'http://www.korokithakis.net/tutorials/python/'}
+        {'title': 'Official Python Tutorial', 'url':'http://docs.python.org/3/tutorial/','views':40},
+        {'title':'How to Think like a Computer Scientist', 'url':'http://www.greenteapress.com/thinkpython/','views':60},
+        {'title':'Learn Python in 10 Minutes', 'url':'http://www.korokithakis.net/tutorials/python/','views':75}
     ]
 
     django_pages = [
-        {'title':'Official Django Tutorial', 'url':'https://docs.djangoproject.com/en/2.1/intro/tutorial01/'},
-        {'title':'Django Rocks', 'url':'http://www.djangorocks.com/'},
-        {'title':'How to Tango with Django', 'url':'http://www.tangowithdjango.com/'}
+        {'title':'Official Django Tutorial', 'url':'https://docs.djangoproject.com/en/2.1/intro/tutorial01/','views':14},
+        {'title':'Django Rocks', 'url':'http://www.djangorocks.com/','views':50},
+        {'title':'How to Tango with Django', 'url':'http://www.tangowithdjango.com/','views':93}
     ]
 
     other_pages = [
-        {'title':'Bottle', 'url':'http://bottlepy.org/docs/dev/'},
-        {'title':'Flask', 'url':'http://flask.pocoo.org'}
+        {'title':'Bottle', 'url':'http://bottlepy.org/docs/dev/','views':42},
+        {'title':'Flask', 'url':'http://flask.pocoo.org','views':73}
     ]
 
     cats = {
